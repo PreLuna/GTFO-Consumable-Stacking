@@ -1,5 +1,5 @@
 {
-  "SchemaVersion": 2,
+  "SchemaVersion": 3,
   "Repository": "GTFO-Consumable-Stacking",
   "Modules": [
     {
@@ -13,7 +13,30 @@
       ],
       "CompileDependencies": [],
       "Kind": "managed-migrated",
-      "LegacyGuid": "WangLocal.MaxConsumables"
+      "LegacyGuid": "WangLocal.MaxConsumables",
+      "ModuleRoot": "MaxConsumables",
+      "SourceRoot": "MaxConsumables/src",
+      "Name": "消耗品堆叠",
+      "DependencyDetails": [
+        {
+          "Guid": "Hikaria.Core",
+          "DependencyFlags": 2,
+          "Kind": "Soft",
+          "DeclaredVersion": null
+        },
+        {
+          "Guid": "dev.AuriRex.gtfo.TheArchive",
+          "DependencyFlags": 2,
+          "Kind": "Soft",
+          "DeclaredVersion": null
+        }
+      ],
+      "TestsRoot": "MaxConsumables/tests"
     }
-  ]
+  ],
+  "InputRoots": [
+    "IntegrationTests",
+    "MaxConsumables"
+  ],
+  "TestPlanPath": "IntegrationTests/recipes.json"
 }

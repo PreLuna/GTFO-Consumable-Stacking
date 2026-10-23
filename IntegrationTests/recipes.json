@@ -1,0 +1,13 @@
+[
+  {
+    "Name": "MergeTests",
+    "Sources": [
+      "MaxConsumables/src/MergeTransaction.cs",
+      "MaxConsumables/src/NativeMerge.cs",
+      "MaxConsumables/src/Patch.cs",
+      "MaxConsumables/src/CoreOverlap.cs",
+      "MaxConsumables/tests/Mocks.cs",
+      "MaxConsumables/tests/Tests.cs"
+    ]
+  }
+]

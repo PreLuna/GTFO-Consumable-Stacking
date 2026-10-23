@@ -9,8 +9,8 @@
     },
     {
       "Path": ".gitignore",
-      "SHA256": "9E6206F653FF3BC2FD319789B5CF5A21B6316588A00BD2C24540A344A9EAE8A0",
-      "Bytes": 228
+      "SHA256": "EBFEE93AF81B2135820A6E43E9BAE7F50AC1F6BFBCAED7FCD918D10C77057C30",
+      "Bytes": 184
     },
     {
       "Path": "Build.ps1",
@@ -19,8 +19,63 @@
     },
     {
       "Path": "DEVELOPMENT.md",
-      "SHA256": "0B683C4F327EE44C8C5F6F11F936244A64D3B26283531127773A418B0971D7A9",
-      "Bytes": 2301
+      "SHA256": "9190D7C168A74D8FFEF4BA0D4EDB9A24705E64FD87CA4F868D19EA7C3D7E47A2",
+      "Bytes": 2494
+    },
+    {
+      "Path": "IntegrationTests/recipes.json",
+      "SHA256": "B5AC044616AECB3859771071151E61E083B3AC17797AE863D96604CEF8F0F0DA",
+      "Bytes": 309
+    },
+    {
+      "Path": "MaxConsumables/src/CoreOverlap.cs",
+      "SHA256": "254C2EE3CE4EAE60B85731BFBBDCEF6CC9831928CECDE10F85042351E3E7D97C",
+      "Bytes": 9866
+    },
+    {
+      "Path": "MaxConsumables/src/MergeTransaction.cs",
+      "SHA256": "C5201A698C9DF47C99DF5C286A251E236A75FC576D35C1925E858EAECC7467D5",
+      "Bytes": 6158
+    },
+    {
+      "Path": "MaxConsumables/src/NativeMerge.cs",
+      "SHA256": "72A54054BCB096D3584577FA7E1BA28B5A10188411BF5E06E548E61CC4B3947A",
+      "Bytes": 10313
+    },
+    {
+      "Path": "MaxConsumables/src/Patch.cs",
+      "SHA256": "70C90B0DDC72479C74A35312D17C040BB44AB1DAD02B5F748AB4DAA6BE33E4C4",
+      "Bytes": 4382
+    },
+    {
+      "Path": "MaxConsumables/src/Plugin.cs",
+      "SHA256": "8C75A998E836D7C6A81E89F35331F57B57B6316BC811B5557E7362183B52FAA5",
+      "Bytes": 1531
+    },
+    {
+      "Path": "MaxConsumables/tests/Mocks.cs",
+      "SHA256": "08B67CBD0242EFC231EBD6E15A93EEA5A927C9DE20A59F19025655BB2899C6A0",
+      "Bytes": 7826
+    },
+    {
+      "Path": "MaxConsumables/tests/OwnershipCore.cs",
+      "SHA256": "B1FC7E7E9CD955C6BBF6A887E676651184E8F1E6DC8791413A0BCF157E996E62",
+      "Bytes": 309
+    },
+    {
+      "Path": "MaxConsumables/tests/OwnershipFramework.cs",
+      "SHA256": "6AE3BF3F89989F45F9A3309A34ED352A17B31DDD1615100A436D97025779EC29",
+      "Bytes": 1777
+    },
+    {
+      "Path": "MaxConsumables/tests/OwnershipTests.cs",
+      "SHA256": "8AA073568769C37E817890A0D0F707393E157D816B56236187C1F1874B60D92F",
+      "Bytes": 5566
+    },
+    {
+      "Path": "MaxConsumables/tests/Tests.cs",
+      "SHA256": "AF636B6043C924FED84D0C8D89EAA1A2FFCD52DCDE7752115F47A3D7012925D4",
+      "Bytes": 9914
     },
     {
       "Path": "NOTICE.md",
@@ -29,73 +84,18 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "9C08A6886949CACBA0FB39E8DACCCCB73E1917BC040DCB0F93562DB43054B227",
-      "Bytes": 947
+      "SHA256": "6F808AE1C65868CB70D95C62AB53EE2A5AF6D622E2614558EFFAB721FF05EF7A",
+      "Bytes": 1376
     },
     {
       "Path": "repo.json",
-      "SHA256": "DDFA4B865101BCA8DEDD49E1FEA2FFB9226C9D714ACEC580321F08D8B8D3691C",
-      "Bytes": 453
-    },
-    {
-      "Path": "src/MaxConsumables/CoreOverlap.cs",
-      "SHA256": "254C2EE3CE4EAE60B85731BFBBDCEF6CC9831928CECDE10F85042351E3E7D97C",
-      "Bytes": 9866
-    },
-    {
-      "Path": "src/MaxConsumables/MergeTransaction.cs",
-      "SHA256": "C5201A698C9DF47C99DF5C286A251E236A75FC576D35C1925E858EAECC7467D5",
-      "Bytes": 6158
-    },
-    {
-      "Path": "src/MaxConsumables/NativeMerge.cs",
-      "SHA256": "72A54054BCB096D3584577FA7E1BA28B5A10188411BF5E06E548E61CC4B3947A",
-      "Bytes": 10313
-    },
-    {
-      "Path": "src/MaxConsumables/Patch.cs",
-      "SHA256": "70C90B0DDC72479C74A35312D17C040BB44AB1DAD02B5F748AB4DAA6BE33E4C4",
-      "Bytes": 4382
-    },
-    {
-      "Path": "src/MaxConsumables/Plugin.cs",
-      "SHA256": "8C75A998E836D7C6A81E89F35331F57B57B6316BC811B5557E7362183B52FAA5",
-      "Bytes": 1531
+      "SHA256": "03F3906E6BF3D5AA80517C9BAE02D8FDCA1FF8C53C1B51EA8E99EDF8974FDA57",
+      "Bytes": 1074
     },
     {
       "Path": "Test.ps1",
-      "SHA256": "5319DE74B78269817A8513EEE3690C568AC93EF166490FFF2C0DFE430CBA1085",
-      "Bytes": 2272
-    },
-    {
-      "Path": "tests/Mocks.cs",
-      "SHA256": "08B67CBD0242EFC231EBD6E15A93EEA5A927C9DE20A59F19025655BB2899C6A0",
-      "Bytes": 7826
-    },
-    {
-      "Path": "tests/OwnershipCore.cs",
-      "SHA256": "B1FC7E7E9CD955C6BBF6A887E676651184E8F1E6DC8791413A0BCF157E996E62",
-      "Bytes": 309
-    },
-    {
-      "Path": "tests/OwnershipFramework.cs",
-      "SHA256": "6AE3BF3F89989F45F9A3309A34ED352A17B31DDD1615100A436D97025779EC29",
-      "Bytes": 1777
-    },
-    {
-      "Path": "tests/OwnershipTests.cs",
-      "SHA256": "8AA073568769C37E817890A0D0F707393E157D816B56236187C1F1874B60D92F",
-      "Bytes": 5566
-    },
-    {
-      "Path": "tests/recipes.json",
-      "SHA256": "6ED50037305C070C0D43D2C6E5679C9C77842043BAFA2DF5CEE0AD131D540B4C",
-      "Bytes": 279
-    },
-    {
-      "Path": "tests/Tests.cs",
-      "SHA256": "AF636B6043C924FED84D0C8D89EAA1A2FFCD52DCDE7752115F47A3D7012925D4",
-      "Bytes": 9914
+      "SHA256": "1AACBE3899A81A30723D3C3BD018116C61BEA646CAEF8526758E798509A8824A",
+      "Bytes": 2317
     }
   ]
 }

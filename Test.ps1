@@ -10,9 +10,9 @@ function Compile([string]$name,[string]$target,[string[]]$sources,[string[]]$ext
  $files=@($sources|ForEach-Object{Join-Path $PSScriptRoot $_})
  & (Join-Path $BuildToolsRoot 'tools/Compile.ps1') -Sources $files -References @($refs+$extra) -Output (Join-Path $out $name) -Executable:($target -eq 'exe') | Tee-Object -FilePath (Join-Path $out ($name+'-compile.log')) | Out-Null
 }
-Compile 'TheArchive.Core.dll' 'library' @('tests/OwnershipFramework.cs') @()
-Compile 'Hikaria.Core.dll' 'library' @('tests/OwnershipCore.cs') @(Join-Path $out 'TheArchive.Core.dll')
-Compile 'OwnershipTests.dll' 'exe' @('src/MaxConsumables/CoreOverlap.cs','tests/OwnershipTests.cs') @($harmony,(Join-Path $out 'TheArchive.Core.dll'))
+Compile 'TheArchive.Core.dll' 'library' @('MaxConsumables/tests/OwnershipFramework.cs') @()
+Compile 'Hikaria.Core.dll' 'library' @('MaxConsumables/tests/OwnershipCore.cs') @(Join-Path $out 'TheArchive.Core.dll')
+Compile 'OwnershipTests.dll' 'exe' @('MaxConsumables/src/CoreOverlap.cs','MaxConsumables/tests/OwnershipTests.cs') @($harmony,(Join-Path $out 'TheArchive.Core.dll'))
 # The actual Harmony dependency stays next to the runner. Resolve its supporting
 # assemblies from the installed framework, without writing in the game folder.
 Copy-Item -LiteralPath $harmony -Destination $out -Force
