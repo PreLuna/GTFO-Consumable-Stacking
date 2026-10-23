@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "Repository": "GTFO-Consumable-Stacking",
+  "Modules": [
+    {
+      "Id": "MaxConsumables",
+      "Assembly": "PreLuna.MaxConsumables",
+      "Guid": "PreLuna.MaxConsumables",
+      "Version": "1.0.4",
+      "DependencyGuids": [
+        "Hikaria.Core",
+        "dev.AuriRex.gtfo.TheArchive"
+      ],
+      "CompileDependencies": [],
+      "Kind": "managed-migrated",
+      "LegacyGuid": "WangLocal.MaxConsumables"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "SchemaVersion": 2,
+  "Repository": "GTFO-Consumable-Stacking",
+  "Files": [
+    {
+      "Path": ".gitattributes",
+      "SHA256": "705FD4D6451A31D36B3DF7DE96F83F30AC976C9B4A6D1E51671D8E2F33E2D0DA",
+      "Bytes": 8
+    },
+    {
+      "Path": ".gitignore",
+      "SHA256": "9E6206F653FF3BC2FD319789B5CF5A21B6316588A00BD2C24540A344A9EAE8A0",
+      "Bytes": 228
+    },
+    {
+      "Path": "Build.ps1",
+      "SHA256": "14B9203BDAE137534027F7B31AE623CA577EF29EA0AE6E5B7F983D5E28F60FB6",
+      "Bytes": 491
+    },
+    {
+      "Path": "DEVELOPMENT.md",
+      "SHA256": "0B683C4F327EE44C8C5F6F11F936244A64D3B26283531127773A418B0971D7A9",
+      "Bytes": 2301
+    },
+    {
+      "Path": "NOTICE.md",
+      "SHA256": "38BC8B32878AEC846698CB66C499B58AA7C4BD4410353D701FAF90CCC4E878F2",
+      "Bytes": 452
+    },
+    {
+      "Path": "README.md",
+      "SHA256": "9C08A6886949CACBA0FB39E8DACCCCB73E1917BC040DCB0F93562DB43054B227",
+      "Bytes": 947
+    },
+    {
+      "Path": "repo.json",
+      "SHA256": "DDFA4B865101BCA8DEDD49E1FEA2FFB9226C9D714ACEC580321F08D8B8D3691C",
+      "Bytes": 453
+    },
+    {
+      "Path": "src/MaxConsumables/CoreOverlap.cs",
+      "SHA256": "254C2EE3CE4EAE60B85731BFBBDCEF6CC9831928CECDE10F85042351E3E7D97C",
+      "Bytes": 9866
+    },
+    {
+      "Path": "src/MaxConsumables/MergeTransaction.cs",
+      "SHA256": "C5201A698C9DF47C99DF5C286A251E236A75FC576D35C1925E858EAECC7467D5",
+      "Bytes": 6158
+    },
+    {
+      "Path": "src/MaxConsumables/NativeMerge.cs",
+      "SHA256": "72A54054BCB096D3584577FA7E1BA28B5A10188411BF5E06E548E61CC4B3947A",
+      "Bytes": 10313
+    },
+    {
+      "Path": "src/MaxConsumables/Patch.cs",
+      "SHA256": "70C90B0DDC72479C74A35312D17C040BB44AB1DAD02B5F748AB4DAA6BE33E4C4",
+      "Bytes": 4382
+    },
+    {
+      "Path": "src/MaxConsumables/Plugin.cs",
+      "SHA256": "8C75A998E836D7C6A81E89F35331F57B57B6316BC811B5557E7362183B52FAA5",
+      "Bytes": 1531
+    },
+    {
+      "Path": "Test.ps1",
+      "SHA256": "5319DE74B78269817A8513EEE3690C568AC93EF166490FFF2C0DFE430CBA1085",
+      "Bytes": 2272
+    },
+    {
+      "Path": "tests/Mocks.cs",
+      "SHA256": "08B67CBD0242EFC231EBD6E15A93EEA5A927C9DE20A59F19025655BB2899C6A0",
+      "Bytes": 7826
+    },
+    {
+      "Path": "tests/OwnershipCore.cs",
+      "SHA256": "B1FC7E7E9CD955C6BBF6A887E676651184E8F1E6DC8791413A0BCF157E996E62",
+      "Bytes": 309
+    },
+    {
+      "Path": "tests/OwnershipFramework.cs",
+      "SHA256": "6AE3BF3F89989F45F9A3309A34ED352A17B31DDD1615100A436D97025779EC29",
+      "Bytes": 1777
+    },
+    {
+      "Path": "tests/OwnershipTests.cs",
+      "SHA256": "8AA073568769C37E817890A0D0F707393E157D816B56236187C1F1874B60D92F",
+      "Bytes": 5566
+    },
+    {
+      "Path": "tests/recipes.json",
+      "SHA256": "6ED50037305C070C0D43D2C6E5679C9C77842043BAFA2DF5CEE0AD131D540B4C",
+      "Bytes": 279
+    },
+    {
+      "Path": "tests/Tests.cs",
+      "SHA256": "AF636B6043C924FED84D0C8D89EAA1A2FFCD52DCDE7752115F47A3D7012925D4",
+      "Bytes": 9914
+    }
+  ]
+}
