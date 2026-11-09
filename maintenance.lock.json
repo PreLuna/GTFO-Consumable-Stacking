@@ -23,6 +23,11 @@
       "Bytes": 309
     },
     {
+      "Path": "MaxConsumables/说明.md",
+      "SHA256": "67A7264967C2467AE4855B8FDF913BC4D15FA110FDE3C824FB4DD40CDE77D41A",
+      "Bytes": 743
+    },
+    {
       "Path": "MaxConsumables/src/CoreOverlap.cs",
       "SHA256": "254C2EE3CE4EAE60B85731BFBBDCEF6CC9831928CECDE10F85042351E3E7D97C",
       "Bytes": 9866
